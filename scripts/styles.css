@@ -1,0 +1,36 @@
+/* your styles go in this file*/
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+} 
+
+ul li {
+    border: solid 1px black;
+    padding: 10px 0;
+    background-color: lightblue;
+}
+
+ul li:hover {
+    background-color: gold;
+}
+
+a {
+    font-variant: small-caps;
+    font-family: 'bangers', Arial;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+.active:hover {
+    background-color: lightblue;
+}
+
+@media only screen and (min-width: 600px) {
+
+    ul li {
+        display: inline-block;
+        width: 120px;
+    }
+
+}
